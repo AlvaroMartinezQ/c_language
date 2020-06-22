@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <sys/wait.h>
 
-//This program counts characters from a file using threads, processes and pipes
+//This program counts characters from a file using child processes and pipes
 
 int p[2];
 
