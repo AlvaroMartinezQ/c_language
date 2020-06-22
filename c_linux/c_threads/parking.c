@@ -12,6 +12,8 @@
 #define N 3
 #define NCOCHES 10
 
+//This program simulates a parking lot.
+
 int buffer[N];
 pthread_mutex_t mutex;
 pthread_cond_t lleno;
