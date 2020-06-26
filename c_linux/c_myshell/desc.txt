@@ -1,1 +1,3 @@
 Myshell project 2020
+
+compile: gcc minishell.c libparser.a -static -o minishell 
