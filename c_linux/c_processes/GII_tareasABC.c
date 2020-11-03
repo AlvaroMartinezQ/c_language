@@ -3,8 +3,8 @@
 #include <unistd.h>
 #include <sys/wait.h>
 
-//A process writes on pipe, B process reads from it 
-//when both are finished C runs and finishes too
+//'A' process writes on pipe, 'B' process reads from it 
+//when both are finished 'C' runs and finishes too
 
 int p[2];
 
