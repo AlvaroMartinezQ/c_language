@@ -1,4 +1,0 @@
-Myshell project 2020
-Simulation of the Linux terminal
-compile: gcc minishell.c libparser.a -static -o minishell 
-execute (with no extra args, just the compiled archive): ./minishell
